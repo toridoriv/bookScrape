@@ -1,0 +1,20 @@
+{
+  "name": "bookscrape",
+  "version": "1.0.0",
+  "description": "A simple scraper to obtain data from Book Depository",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "books",
+    "comics",
+    "book-depository"
+  ],
+  "author": "Victoria Tori Rodríguez <virodriguez.fe@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "latest",
+    "request": "latest"
+  }
+}
