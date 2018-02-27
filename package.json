@@ -4,7 +4,8 @@
   "description": "A simple scraper to obtain data from Book Depository",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "books",
@@ -16,5 +17,14 @@
   "dependencies": {
     "cheerio": "latest",
     "request": "latest"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malditoprotozoo/bookScrape.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malditoprotozoo/bookScrape/issues"
+  },
+  "homepage": "https://github.com/malditoprotozoo/bookScrape#readme"
 }
